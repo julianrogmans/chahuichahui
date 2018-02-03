@@ -22,8 +22,8 @@ defmodule ChahuiWeb.Router do
   scope "/", ChahuiWeb do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
-    get "/:page", PageController, :index
+    get "/", PageController, :home
+    # get "/:page", PageController, :index
   end
   # Other scopes may use custom stacks.
   # scope "/api", ChahuiWeb do

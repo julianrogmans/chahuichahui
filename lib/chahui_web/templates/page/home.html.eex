@@ -1,0 +1,27 @@
+<style media="screen">
+  .header {
+    width: 100%;
+    position: relative;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .text {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 50vh;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    color: white;
+    font-size: 55px;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+  }
+</style>
+<div class="header">
+  <img class="image" src="<%= static_path(@conn, "/images/sunset.jpg") %>" alt="sunset">
+  <h1 class="text">Chahui Chahui!</h1>
+</div>

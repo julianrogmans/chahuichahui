@@ -20,7 +20,7 @@ render state =
                     Just route ->
                         case route of
                             Route.Home ->
-                                text "Home"
+                                Page.empty
 
                             Route.Login ->
                                 Login.layout state
